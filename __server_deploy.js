@@ -25,7 +25,7 @@
  * --------------------------
  * 1. make change 
  * 2. make sure you : git add. git commit. git push.
- * 
+ * 3. git push heroku main
  * ---------------------------
  * connet server with client
  * ---------------------------
