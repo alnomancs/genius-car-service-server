@@ -106,6 +106,11 @@ run().catch(console.dir());
 app.get("/", (req, res) => {
   res.send("running from genius car");
 });
+
+app.get("hero", (req, res) => {
+  res.send("hero");
+});
+
 app.listen(port, () => {
   console.log(`lisnning port: ${port}`);
 });
